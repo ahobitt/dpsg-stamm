@@ -1,0 +1,18 @@
+/*
+Theme Name: DPSG Stamm
+Theme URI: https://dpsg.de
+Description: Ein datenschutzkonformes und barrierefreies Block Child-Theme für DPSG Stämme basierend auf Twenty Twenty-Four. Lokale Schriften (Roboto) und lokale Bilder.
+Author: Eric Schümann
+Author URI: https://schuemann.it
+Template: twentytwentyfour
+Version: 1.0.0
+Requires at least: 6.2
+Requires PHP: 7.4
+Text Domain: dpsg-stamm
+*/
+
+/* Custom CSS Falls-Back - The vast majority of styling will be handled by theme.json and Block Styles */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

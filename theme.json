@@ -1,0 +1,106 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#003056",
+					"name": "DPSG Blau",
+					"slug": "dpsg-blau"
+				},
+				{
+					"color": "#f1f1f1",
+					"name": "Hellgrau",
+					"slug": "light-grey"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Weiß",
+					"slug": "white"
+				},
+				{
+					"color": "#e02030",
+					"name": "DPSG Rot",
+					"slug": "dpsg-rot"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Roboto\", sans-serif",
+					"name": "Roboto",
+					"slug": "roboto",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": ["file:./assets/fonts/roboto-regular.woff2"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": ["file:./assets/fonts/roboto-bold.woff2"]
+						}
+					]
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1000px",
+			"wideSize": "1400px"
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--dpsg-blau)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--roboto)"
+		},
+		"elements": {
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--dpsg-blau)"
+				},
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"h2": {
+				"color": {
+					"text": "var(--wp--preset--color--dpsg-blau)"
+				},
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"h3": {
+				"color": {
+					"text": "var(--wp--preset--color--dpsg-blau)"
+				},
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--dpsg-blau)"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--dpsg-blau)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"border": {
+					"radius": "0px"
+				}
+			}
+		}
+	}
+}
