@@ -12,12 +12,16 @@ Ein datenschutzkonformes und barrierefreies WordPress Block-Child-Theme für DPS
 
 ## Installation
 
-1. **Parent-Theme installieren**: Stelle sicher, dass das Theme **Twenty Twenty-Four** in WordPress installiert ist (Designs → Neues Design hinzufügen → „Twenty Twenty-Four" suchen).
+### Per WordPress-Backend
+1. [dpsg-stamm-theme.zip herunterladen](https://github.com/ahobitt/dpsg-theme/releases/latest/download/dpsg-stamm-theme.zip)
 2. **Theme-ZIP hochladen**: Gehe zu *Design → Designs → Design hochladen* und lade `dpsg-stamm-theme.zip` hoch.
 3. **Theme aktivieren**: Klicke auf „Aktivieren".
 4. **Setup-Assistent**: Nach der Aktivierung erscheint ein Admin-Hinweis. Wähle, ob Beispielinhalte (Seiten, Demo-Beiträge) automatisch angelegt werden sollen oder ob du mit einem leeren Theme startest.
 
 > **Wichtig:** Der Theme-Ordner muss exakt `dpsg-stamm-theme` heißen, damit interne Pfade korrekt aufgelöst werden. Beim Upload über das WordPress-Backend ist das automatisch der Fall.
+
+### Live-Demo im Browser
+👉 [In WordPress Playground öffnen](https://playground.wordpress.net/#%7B%22landingPage%22%3A%22%2F%22%2C%22steps%22%3A%5B%7B%22step%22%3A%22installTheme%22%2C%22themeZipFile%22%3A%7B%22resource%22%3A%22url%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fahobitt%2Fdpsg-theme%2Freleases%2Flatest%2Fdownload%2Fdpsg-stamm-theme.zip%22%7D%2C%22options%22%3A%7B%22activate%22%3Atrue%7D%7D%5D%7D)
 
 ## Funktionen
 
