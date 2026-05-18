@@ -16,3 +16,54 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* -------------------------------------------------------------------------
+   Logo-Größe Desktop
+   ------------------------------------------------------------------------- */
+
+.dpsg-header-logo,
+.dpsg-header-logo img {
+	max-width: 160px !important;
+	width: 160px !important;
+	height: auto !important;
+}
+
+/* -------------------------------------------------------------------------
+   Mobile Navigation – Burger-Menü
+   Twenty Twenty-Four blendet das Burger-Icon per Default erst bei schmalen
+   Viewports ein, wenn die Navigation einen overflow erzeugt. Da wir eine
+   eigene Header-Struktur (flex, nowrap) nutzen, erzwingen wir das Burger-
+   Icon explizit für Mobilgeräte.
+   ------------------------------------------------------------------------- */
+
+/* Zeige das Burger-Toggle auf mobilen Geräten */
+@media (max-width: 781px) {
+	.wp-block-navigation__responsive-container-open {
+		display: flex !important;
+	}
+
+	/* Verstecke die horizontale Link-Liste, solange das Menü nicht geöffnet ist */
+	.wp-block-navigation__container {
+		display: none !important;
+	}
+
+	/* Wenn das Menü geöffnet ist (JS fügt .is-menu-open hinzu) → alles einblenden */
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container {
+		display: flex !important;
+		flex-direction: column;
+	}
+
+	/* Schließen-Button im offenen Menü sichtbar machen */
+	.wp-block-navigation__responsive-container.is-menu-open
+	.wp-block-navigation__responsive-container-close {
+		display: flex !important;
+	}
+
+	/* Logo deutlich kleiner skalieren damit Burger-Icon daneben Platz hat */
+	.dpsg-header-logo,
+	.dpsg-header-logo img {
+		max-width: 110px !important;
+		width: 110px !important;
+		height: auto !important;
+	}
+}

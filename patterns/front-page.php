@@ -178,8 +178,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/footer-bg.png' ); ?>","minHeight":350,"minHeightUnit":"px","dimRatio":60,"overlayColor":"dpsg-blau","align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull" style="min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-dpsg-blau-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Mitglied werden Banner" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/footer-bg.png' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/footer_background.jpg' ); ?>","minHeight":350,"minHeightUnit":"px","dimRatio":60,"overlayColor":"dpsg-blau","align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-dpsg-blau-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Mitglied werden Banner" src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/footer_background.jpg' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 
 <!-- wp:group {"layout":{"type":"constrained"},"style":{"color":{"text":"#ffffff"},"spacing":{"padding":{"top":"var(--wp--preset--spacing--60)","bottom":"var(--wp--preset--spacing--60)"}}}} -->
 <div class="wp-block-group has-text-color" style="color:#ffffff;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
