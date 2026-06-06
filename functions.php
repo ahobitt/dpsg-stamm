@@ -454,3 +454,8 @@ function dpsg_stamm_favicon_fallback() {
 	}
 }
 add_action( 'wp_head', 'dpsg_stamm_favicon_fallback' );
+
+// ---------------------------------------------------------------------------
+// UPDATE-CHECKER (v1.1.0+)
+// ---------------------------------------------------------------------------
+require_once get_stylesheet_directory() . '/inc/class-dpsg-stamm-update-checker.php';
