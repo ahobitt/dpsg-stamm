@@ -46,8 +46,8 @@
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
 <p style="font-size:0.9rem">In den Bibergruppen lernen die Kinder schon vor dem Einstieg in die Wölflingsstufe das Abenteuer Pfadfinden kennen.</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#e02030"}}} -->
-<p style="color:#e02030;font-size:0.9rem;font-weight:700">Bibergruppen ➔</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#810a1a"}}} -->
+<p style="color:#810a1a;font-size:0.9rem;font-weight:700">Bibergruppen ➔</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -63,8 +63,8 @@
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
 <p style="font-size:0.9rem">Die Wölflinge entdecken vor allem ihr alltägliches Umfeld und versuchen, es nach ihren Wünschen zu gestalten.</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#e02030"}}} -->
-<p style="color:#e02030;font-size:0.9rem;font-weight:700">Wölflingsstufe ➔</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#810a1a"}}} -->
+<p style="color:#810a1a;font-size:0.9rem;font-weight:700">Wölflingsstufe ➔</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -80,8 +80,8 @@
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
 <p style="font-size:0.9rem">Ab 9 Jahren kann man Jungpfadfinder*in werden. In der Jungpfadfinderstufe dreht sich alles um Abenteuer.</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#e02030"}}} -->
-<p style="color:#e02030;font-size:0.9rem;font-weight:700">Jungpfadfinderstufe ➔</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#810a1a"}}} -->
+<p style="color:#810a1a;font-size:0.9rem;font-weight:700">Jungpfadfinderstufe ➔</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -107,8 +107,8 @@
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
 <p style="font-size:0.9rem">Die Mitgliedschaft in der Pfadistufe beginnt frühestens mit 12 Jahren. Pfadfinder*innen wagen viel.</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#e02030"}}} -->
-<p style="color:#e02030;font-size:0.9rem;font-weight:700">Pfadistufe ➔</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#810a1a"}}} -->
+<p style="color:#810a1a;font-size:0.9rem;font-weight:700">Pfadistufe ➔</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -124,8 +124,8 @@
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
 <p style="font-size:0.9rem">Rover*innen sind unterwegs – nicht nur zu verschiedenen Orten, sondern auch auf dem Weg zu sich selbst.</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#e02030"}}} -->
-<p style="color:#e02030;font-size:0.9rem;font-weight:700">Roverstufe ➔</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#810a1a"}}} -->
+<p style="color:#810a1a;font-size:0.9rem;font-weight:700">Roverstufe ➔</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -141,8 +141,8 @@
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
 <p style="font-size:0.9rem">Ab 18 Jahren kann man Leiter*in in der DPSG werden. Die Leitenden bereiten das Pfadfinden altersgerecht vor.</p>
 <!-- /wp:paragraph -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#e02030"}}} -->
-<p style="color:#e02030;font-size:0.9rem;font-weight:700">Leiter*in werden ➔</p>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem","fontWeight":"700"},"color":{"text":"#810a1a"}}} -->
+<p style="color:#810a1a;font-size:0.9rem;font-weight:700">Leiter*in werden ➔</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
