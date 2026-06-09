@@ -4,103 +4,55 @@
 	"settings": {
 		"color": {
 			"palette": [
-				{
-					"color": "#003056",
-					"name": "DPSG Blau",
-					"slug": "dpsg-blau"
-				},
-				{
-					"color": "#f1f1f1",
-					"name": "Hellgrau",
-					"slug": "light-grey"
-				},
-				{
-					"color": "#ffffff",
-					"name": "Weiß",
-					"slug": "white"
-				},
-				{
-					"color": "#e02030",
-					"name": "DPSG Rot",
-					"slug": "dpsg-rot"
-				}
+				{ "color": "#003056", "name": "DPSG Blau",       "slug": "dpsg-blau"       },
+				{ "color": "#810a1a", "name": "DPSG Rot",        "slug": "dpsg-rot"        },
+				{ "color": "#ecdfcb", "name": "DPSG Hellbeige",  "slug": "dpsg-hellbeige"  },
+				{ "color": "#c7bdad", "name": "DPSG Mittelbeige","slug": "dpsg-mittelbeige"},
+				{ "color": "#e6007e", "name": "DPSG Magenta",    "slug": "dpsg-magenta"    },
+				{ "color": "#ffed00", "name": "DPSG Gelb",       "slug": "dpsg-gelb"       },
+				{ "color": "#009fe3", "name": "DPSG Cyan",       "slug": "dpsg-cyan"       },
+				{ "color": "#ffffff", "name": "Weiß",            "slug": "white"           }
 			]
 		},
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Roboto\", sans-serif",
-					"name": "Roboto",
-					"slug": "roboto",
+					"fontFamily": "\"Arvo\", \"Rockwell\", Georgia, serif",
+					"name": "Arvo (DPSG Überschriften)",
+					"slug": "arvo",
 					"fontFace": [
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": ["file:./assets/fonts/roboto-regular.woff2"]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": ["file:./assets/fonts/roboto-bold.woff2"]
-						}
+						{ "fontFamily": "Arvo", "fontStyle": "normal", "fontWeight": "400", "src": ["file:./assets/fonts/arvo-regular.woff2"] },
+						{ "fontFamily": "Arvo", "fontStyle": "normal", "fontWeight": "700", "src": ["file:./assets/fonts/arvo-bold.woff2"]    }
+					]
+				},
+				{
+					"fontFamily": "\"Lato\", Calibri, Arial, sans-serif",
+					"name": "Lato (DPSG Fließtext)",
+					"slug": "lato",
+					"fontFace": [
+						{ "fontFamily": "Lato", "fontStyle": "normal", "fontWeight": "400", "src": ["file:./assets/fonts/lato-regular.woff2"] },
+						{ "fontFamily": "Lato", "fontStyle": "normal", "fontWeight": "700", "src": ["file:./assets/fonts/lato-bold.woff2"]    }
 					]
 				}
 			]
 		},
-		"layout": {
-			"contentSize": "1000px",
-			"wideSize": "1400px"
-		}
+		"layout": { "contentSize": "1000px", "wideSize": "1400px" }
 	},
 	"styles": {
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--dpsg-blau)"
+			"text":       "var(--wp--preset--color--dpsg-blau)"
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--roboto)"
+			"fontFamily": "var(--wp--preset--font-family--lato)"
 		},
 		"elements": {
-			"h1": {
-				"color": {
-					"text": "var(--wp--preset--color--dpsg-blau)"
-				},
-				"typography": {
-					"fontWeight": "700"
-				}
-			},
-			"h2": {
-				"color": {
-					"text": "var(--wp--preset--color--dpsg-blau)"
-				},
-				"typography": {
-					"fontWeight": "700"
-				}
-			},
-			"h3": {
-				"color": {
-					"text": "var(--wp--preset--color--dpsg-blau)"
-				},
-				"typography": {
-					"fontWeight": "700"
-				}
-			},
-			"link": {
-				"color": {
-					"text": "var(--wp--preset--color--dpsg-blau)"
-				}
-			},
-			"button": {
-				"color": {
-					"background": "var(--wp--preset--color--dpsg-blau)",
-					"text": "var(--wp--preset--color--white)"
-				},
-				"border": {
-					"radius": "0px"
-				}
-			}
+			"h1": { "color": { "text": "var(--wp--preset--color--dpsg-blau)" }, "typography": { "fontFamily": "var(--wp--preset--font-family--arvo)", "fontWeight": "700" } },
+			"h2": { "color": { "text": "var(--wp--preset--color--dpsg-blau)" }, "typography": { "fontFamily": "var(--wp--preset--font-family--arvo)", "fontWeight": "700" } },
+			"h3": { "color": { "text": "var(--wp--preset--color--dpsg-blau)" }, "typography": { "fontFamily": "var(--wp--preset--font-family--arvo)", "fontWeight": "700" } },
+			"h4": { "color": { "text": "var(--wp--preset--color--dpsg-blau)" }, "typography": { "fontFamily": "var(--wp--preset--font-family--arvo)", "fontWeight": "700" } },
+			"link":   { "color": { "text": "var(--wp--preset--color--dpsg-blau)" } },
+			"button": { "color": { "background": "var(--wp--preset--color--dpsg-rot)", "text": "var(--wp--preset--color--white)" }, "border": { "radius": "0px" } }
 		}
 	}
 }
