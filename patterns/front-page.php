@@ -191,8 +191,8 @@
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"style":{"color":{"background":"#e02030","text":"#ffffff"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-background wp-element-button" style="color:#ffffff;background-color:#e02030">Mitglied werden</a></div>
+<!-- wp:button {"style":{"color":{"background":"#810a1a","text":"#ffffff"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-background wp-element-button" style="color:#ffffff;background-color:#810a1a">Mitglied werden</a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
